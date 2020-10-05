@@ -23,6 +23,8 @@ Install bundler and the gems that framework needs
     gem install bundler
     bundle install
 
+**Place apk in support folder and name it: app-world-beta (1).apk**
+
 ## How to run tests
 
 - Appium should be running
