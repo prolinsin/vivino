@@ -1,0 +1,5 @@
+regression: --tags=@regression --format html --out report_regression.html --format pretty
+smoke: --tags=@smoke --format html --out report_smoke.html --format pretty
+all: --tags="@regression or @smoke" --format html --out report.html --format pretty
+search: --tags=@search --format html --out report_search.html --format pretty
+user_related_smoke: --tags="@profile or @feed and @smoke" --format html --out report_user_smoke.html --format pretty
